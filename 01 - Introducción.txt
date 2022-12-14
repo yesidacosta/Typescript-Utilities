@@ -1,0 +1,8 @@
+TYPESCRIPT
+
+TypeScript es un lenguaje de programación de tipado estático que expande las caracteristicas de Javascript. 
+
+Fue desarrollado por Microsoft
+
+Typescript convierte el código en JS en un proceso llamado Transpilación
+

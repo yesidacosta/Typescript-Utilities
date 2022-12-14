@@ -1,0 +1,35 @@
+Ejecución en Vscode
+
+Crear un archivo index.ts
+Codificar
+Ejecutar con el comando
+    tsc -init
+
+    Se crea un archivo tsconfig.json
+
+
+tsconfig.json  
+    Contiene configuraciones de proyecto typescript
+
+    Importantes
+        "target" : Indica la versióm de EcmaScript sobre la que se ejecutará el proyecto
+
+        Modules
+        "rootDir" : Indica la carpeta donde de ubicarán los archivos del proyecto. Se hace
+            ./src
+
+            Crear carpeta src y mover index.ts
+
+        Emit
+        "Outdir": Indica la capeta donde se generará el código JS. Se hace
+            ./dist
+
+        "removeComments": Indica la emisión de comentarios
+            "removeComments": true
+
+        "noEmitOnError": Indica si existen errores. Se hace
+            "noEmitOnError": false,
+
+    
+    Luego, ejecutar UNICAMENTE
+        tsc

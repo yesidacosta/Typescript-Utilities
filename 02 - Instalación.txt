@@ -1,0 +1,16 @@
+Es necesario:
+
+En PowerShell con permisos de administrador
+Ejecutar
+	get-ExecutionPolicy
+	
+	Si resultado es Restricted ejecutar:
+	
+	set-ExcecutionPolicy remotesigned
+
+Instalar NodeJS
+	Ejecutar
+		npm i -g typescript
+
+Verificar instalación
+	tsc -v
