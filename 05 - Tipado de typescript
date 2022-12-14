@@ -1,0 +1,17 @@
+Tipado de TS
+Además de los tipos que tiene JS, TS aumenta los siguientes:
+
+any (No utilizarlo demasiado)
+    unknown
+    never
+    arrays
+    tuplas
+    Enums
+
+Tipos Inferidos
+    TS infiere el tipo de dato cuando se INICIALIZA LA VARIABLE
+    Pasar el cursor sobre la variable para ver su tipo
+
+    Cuando No SE INICIALIZA, TS asigna el tipo any
+
+    

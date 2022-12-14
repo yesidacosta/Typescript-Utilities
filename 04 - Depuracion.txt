@@ -1,0 +1,33 @@
+DEPURACIÓN
+
+Ir a archivo tsconfig.json y descomentar
+    "sourceMap": true
+
+    Guardar
+
+Ejecutar tsc
+    se crean un index.js.map
+
+En index.js 
+    Codificar algo
+    Poner un BreakPoint dando click junto al número de la linea
+
+Abrir panel de depuración
+    Ctrl+Mayus+D
+
+    Click en "Crear un archivo launch.json" > NodeJS
+    Abrir archivo
+    Agregar despues "program": "..ruta del programa":
+        "program": "${workspaceFolder}/src/index.ts",
+        "preLaunchTask": "tsc: build - tsconfig.json"
+
+    Guardar
+
+Click en botón "Iniciar depuración"
+
+Interactuar con opciones de depuración
+
+
+
+
+
